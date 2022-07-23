@@ -1,0 +1,31 @@
+body{
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+img{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#playAgain{
+    background-color: #006498;
+    border-radius: 5px;
+    border:1px solid #006498;
+    color:white;
+    padding:7px 10px;
+    margin:auto;
+}
